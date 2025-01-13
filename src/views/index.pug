@@ -1,0 +1,126 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv='Expires' content='0')
+        meta(http-equiv='Last-Modified' content='0')
+        meta(http-equiv='Cache-Control' content='no-cache, mustrevalidate')
+        meta(http-equiv='Pragma' content='no-cache')
+        title Conversatorios Cayetano
+        link(rel="stylesheet", href="./css/app.css")
+        link(rel="stylesheet", href="https://unpkg.com/swiper/swiper-bundle.min.css")
+        script(src='https://www.google.com/recaptcha/api.js' async='' defer='')
+        //- script(async).
+        //-     (function(h,o,t,j,a,r){
+        //-     h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        //-     h._hjSettings={hjid:3659234,hjsv:6};
+        //-     a=o.getElementsByTagName('head')[0];
+        //-     r=o.createElement('script');r.async=1;
+        //-     r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        //-     a.appendChild(r);
+        //-     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        link(rel='preconnect' href='https://fonts.googleapis.com')
+        link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+        link(href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet')
+    body
+        .bloque1
+            .bloque1Container
+                .bloque1Background
+                    //- https://lp.cayetano.edu.pe/wp-content/uploads/2024/10/beca18_logo-scaled.webp
+                    //- img(src="img/beca18evento-logo.webp", alt="")
+                    img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/10/beca18_logo-scaled.webp", alt="")
+                    .bloque1BackgroundText
+                        h3 
+                            span Seminario de Preparación
+                            |  para
+                           
+                        //- img(src="img/beca18evento-pronabec-mobil.webp", alt="")
+                        img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/beca18evento-pronabec-mobil.webp", alt="")
+                        h4 Inicio: 27 de enero
+                        //- h2 ¡Cerramos Inscripciones!
+                .bloque1FormContent
+                    //- img.bloque1FormContentMobile1(src="img/shield-mobile-1.webp", alt="")
+                    //- img.bloque1FormContentMobile2(src="img/shield-mobile-2.webp", alt="")
+                    img.bloque1FormContentMobile1(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/shield-mobile-1.webp", alt="")
+                    img.bloque1FormContentMobile2(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/shield-mobile-2.webp", alt="")
+                    //- h4 ¡Cerramos Inscripciones!
+                    .bloque1Form
+                        .bloque1FormTitle
+                            h3 Déjanos tus datos y 
+                                span te acompañaremos en el proceso
+                                
+                        input(type="text" placeholder="Nombres*")
+                        input(type="text" placeholder="Apellidos*")
+                        input(type="text" placeholder="Tipo de documento*")
+                        input.inputNumber(type="number" placeholder="Número de documento*" inputmode="numeric")
+                        input(type="text" placeholder="Celular*")
+                        input(type="text" placeholder="Correo electrónico*")
+                        input(type="text" placeholder="Ciudad*")
+                        input(type="text" placeholder="Elige tu carrera*")
+                        .bloque1TopFormContainer--terminos
+                            input(type="checkbox", name="")
+                            h3 Política de privacidad y términos de servicio.
+                        .captcha
+                            #recap3503766000237491098.g-recaptcha(data-sitekey='6LdqkDoiAAAAALdLtgIzFUQelkS9jGZU4W7gjLHG' data-theme='light' data-callback='rccallback3503766000237491098' captcha-verified='false')
+                            #recapErr3503766000237491098(style='font-size:12px;color:red;visibility:hidden;') Error en validación de Captcha. Si no es un robot, inténtelo de nuevo.
+                        .bloque1FormButton
+                            button
+                                h3 Quiero más información
+        .bloque2
+            img.bloque2ImageDesktop(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/shield-desktop.webp", alt="")
+            //- img.bloque2ImageDesktop(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/shield-desktop.webp", alt="")
+            .bloque2Container
+                .bloque2Title
+                    h3 ¡Asegura tu ingreso!
+                    h4 Te preparamos para obtener 
+                        span tu beca en Cayetano.
+                        | 
+                        br
+                        | Inscríbete y participa en
+                        span nuestra capacitación virtual 
+                        | 
+                        span para preseleccionados del Programa de Beca 18 de PRONABEC. 
+                
+                //- .bloque2Title
+                //-     h4 Conéctate y conoce todo lo que 
+                //-         span Cayetano y Beca 18 
+                //-         | tienen para ti.
+                .bloque2Items2Container
+                    .bloque2Item2
+                        img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/beca18evento-icon-check.webp", alt="")
+                        h4 Dirigido a: Preseleccionados del Examen Nacional de Preseleccionados del Programa Beca 18 que cumplan con los requisitos para esta modalidad.
+                    .bloque2Item2
+                        img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/beca18evento-icon-award.webp", alt="")
+                        h4 Propuesta educativa de excelencia.
+                    //- .bloque2Item2
+                    //-     img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/beca18evento-icon-handheal.webp", alt="")
+                    //-     h4 Beneficios para becarios.
+                .bloque2Title
+                    h3 ¡Te esperamos!
+                .bloque2ItemsContainer
+                    .bloque2Item
+                        img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/beca18evento-icon-calendar.webp", alt="")
+                        h3 Inicio del programa
+                            br
+                            | 27 de enero
+                    .bloque2Item
+                        img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/beca18evento-icon-time.webp", alt="")
+                        h4 6:00 p.m.
+                    .bloque2Item
+                        img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/zoom-icono.png", alt="")
+                        h4 Modalidad Virtual
+                .bloque2Button
+                    button(onclick="window.open('https://lp.cayetano.edu.pe/beca-18-eventos/?utm_campaign=evento-beca18-2025-01&utm_term=digital&utm_source=organico&utm_medium=landing-page&utm_content=redirect-simulacro', '_blank')")
+                        h3 Regístrate aquí
+        .bloque7
+            .bloque7Container
+                img(src="https://lp.cayetano.edu.pe/wp-content/uploads/2024/10/beca18_logo_top-scaled.webp", alt="")
+                h3 Campus Central:
+                    br
+                    | Av. Honorio Delgado 430
+                    br
+                    | Urb. Ingeniería, San Martín de Porres
+        script(src="./js/script.js" async)
+        script(src="https://unpkg.com/swiper/swiper-bundle.min.js")
