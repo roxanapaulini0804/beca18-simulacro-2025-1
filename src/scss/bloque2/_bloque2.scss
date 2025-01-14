@@ -136,6 +136,19 @@
             margin: 0;
             font-size: 1.8rem;
         }
+
+        h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            width: 17rem;
+            @include m.desktop_1020 {
+                text-align: center;
+                
+            }
+
+        }
+
+
     }
  
 }
